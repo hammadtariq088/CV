@@ -1,0 +1,288 @@
+@import url('http://fonts.cdnfonts.com/css/georgia');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+    background: #fff;
+    font-family: 'Georgia', sans-serif;
+}
+.main-div {
+    background-color: #f5f5f5;
+    padding: 25px 50px;
+    width: 1000px;
+    margin: 0px auto;
+    border-top: 0.6rem solid #666666;
+    border-bottom: 0.3rem solid #666666;
+}
+/* section 1 */
+.inner-div1 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    align-items: center;
+}
+.inner-left h1 {
+    font-size: 60px;
+    color: #333333;
+    font-weight: 500;
+}
+.inner-left h2 {
+    font-size: 26px;
+    color: #3b3334;
+    font-weight: 500;
+}
+.download-btn {
+    background: #666;
+    padding: 5px 40px 5px 10px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 400;
+}
+.download-btn:hover {
+    background: #fff;
+    padding: 5px 40px 5px 10px;
+    color: #666;
+    text-decoration: none;
+}
+.email{
+    margin-top: 10px;
+}
+.email a{
+    color: #ab0000;
+    text-decoration: underline;
+    font-weight: 500;
+}
+.ph-no a{
+    color: #333333;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+/* section 2 */
+
+.inner-div2 {
+    margin: 30px 0px;
+    display: flex;
+}
+.profile h3{
+    color: #333333;
+    font-size: 26px;
+    font-weight: 500;
+    font-style: normal;
+}
+.profile-info {
+    max-width: 30rem;
+    color: #444444;
+    font-weight: 500;
+}
+.profile-info p{
+    color: rgb(68, 68, 68);
+    font-size: 18px;
+    font-weight: 500;
+}
+.profile {
+    width: 15rem;
+}
+
+/* section 3 */
+
+.inner-div3 {
+    margin: 30px 0px;
+    display: flex;
+}
+.skills h3{
+    color: #333333;
+    font-size: 26px;
+    font-weight: 500;
+    font-style: normal;
+}
+.skills-info {
+    display: flex;
+}
+.skills {
+    width: 15rem;
+}
+.skills-info h4 {
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: #333333;
+    margin-bottom: 15px;
+}
+.skills-info p{
+    color: #444444;
+    font-size: 18px;
+    font-weight: 500;
+    width: 12.7rem;
+}
+.web-design p , .interface-design p{
+    padding: 0px 23px 0px 0px;
+}
+/* section 4 */
+.inner-div4 {
+    margin: 30px 0px;
+    display: flex;
+}
+.technical h3{
+    color: #333333;
+    font-size: 26px;
+    font-weight: 500;
+    font-style: normal;
+}
+td {
+    border-bottom: 1px solid #cccccc;
+    color: #444444;
+    width: 12rem;
+    padding: 5px 0px;
+}
+.technical {
+    width: 15rem;
+}
+/* section 5 */
+.inner-div5 {
+    margin: 30px 0px;
+    display: flex;
+}
+.experience {
+    width: 52rem;
+}
+.experience h3{
+    color: #333333;
+    font-size: 26px;
+    font-weight: 500;
+    font-style: normal;
+}
+.experience-info-1 {
+    display: flex;
+    justify-content: space-between;
+}
+.experience-info-2 h5{
+    margin-bottom: 10px;
+}
+.inner-div5 hr {
+    margin: 60px 0px 20px 0px;
+}
+.experience-info-1 h4 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #333333;
+}
+.experience-info-2 h5 {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #333333;
+}
+.experience-info-2 p {
+    color: #444444;
+    font-size: 18px;
+    font-weight: 500;
+}
+/* section 6 */
+.inner-div6 {
+    margin: 25px 0px 60px 0px;
+    display: flex;
+}
+.education {
+    width: 15rem;
+}
+.education h3{
+    color: #333333;
+    font-size: 26px;
+    font-weight: 500;
+    font-style: normal;
+}
+.education-info h4 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #333333;
+}
+.education-info p {
+    color: #444444;
+    font-size: 19.5px;
+    font-weight: 500;
+}
+/* section 7 */
+.cv-footer {
+    text-align: center;
+    margin: 20px 0px 40px 0px;
+}
+.cv-footer p{
+    color: #444444;
+    font-size: 18px;
+    font-weight: 500;
+}
+.footer-email{
+    color: #ab0000;
+    text-decoration: underline;
+    font-weight: 500;
+}
+.footer-ph{
+    color: #333333;
+    font-weight: 500;
+    text-decoration: none;
+}
+/* Responsive */
+@media only screen and (max-width: 960px) {
+    .main-div {
+        padding: 25px 25px;
+        width: 960px;
+    }
+    .inner-div1 {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .inner-left {
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    .inner-div2 {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .profile {
+        margin-bottom: 15px;
+    }
+    .inner-div3 {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .skills{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .inner-div4 {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .technical{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .inner-div5 {
+        flex-direction: column;
+    }
+    .experience{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .inner-div6 {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .education{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+}
+
+
+
